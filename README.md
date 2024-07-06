@@ -71,5 +71,7 @@ The app will start running at `http://localhost:3000`.
 Features
 
 Responsiveness: The app is designed to be responsive and adapts well to different screen sizes.
+
+
 Charismatic Visual Dashboard: The UI includes a visually appealing dashboard that presents weather data in a user-friendly manner.
 
