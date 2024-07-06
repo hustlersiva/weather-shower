@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* animations.css */
+
+/* Animated Background */
+/* animations.css */
+
+/* Animated Background */
+.animated-bg {
+    background: linear-gradient(55deg, #b45a5a, #b1975e, #48dbfb);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease-in-out infinite;
+  }
+  
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Transparent Text */
+  .bg-transparent-text {
+    color: transparent;
+    background: linear-gradient(to right, #ff6b6b, #feca57, #48dbfb, #1dd1a1, #f368e0);
+    /* color:black; */
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  /* Add a backdrop effect to Todo */
+  .bg-opacity-70 {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Add a blur effect for the backdrop */
+  .backdrop-blur-md {
+    backdrop-filter: blur(10px);
+  }
+  ::-webkit-scrollbar{
+     display: none;
+  }
